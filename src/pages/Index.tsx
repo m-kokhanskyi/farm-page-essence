@@ -1,7 +1,7 @@
 
 import Hero from "../components/Hero";
 import { Link } from "react-router-dom";
-import { Leaf, Package, Tree } from "lucide-react";
+import { Leaf, Package, TreePine } from "lucide-react";
 
 const Index = () => {
   const features = [
@@ -16,7 +16,7 @@ const Index = () => {
       description: "Ми пропонуємо тільки свіжі сезонні продукти найвищої якості."
     },
     {
-      icon: <Tree className="h-10 w-10 text-farm-green" />,
+      icon: <TreePine className="h-10 w-10 text-farm-green" />,
       title: "Екологічне господарство",
       description: "Наше господарство працює за принципами сталого розвитку та турботи про природу."
     }
